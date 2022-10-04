@@ -587,6 +587,26 @@ video {
   border-width: 2px;
 }
 
+.bg-normal {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 219 234 / var(--tw-bg-opacity));
+}
+
+.bg-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(95 176 205 / var(--tw-bg-opacity));
+}
+
+.bg-brighter {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 246 246 / var(--tw-bg-opacity));
+}
+
+.bg-bright {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 240 243 / var(--tw-bg-opacity));
+}
+
 .bg-beach-noon {
   background-image: url(/assets/beach-noon.jpg);
 }
@@ -597,6 +617,22 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .pl-2 {
